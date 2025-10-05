@@ -3,7 +3,7 @@ const events = [
     id: 'birth',
     title: 'Birth in Calamba',
     date: 'June 19, 1861',
-    img: 'images/JOSERIZAL.jpg',
+    img: 'JOSERIZAL.jpeg',
     body: 'José Protacio Rizal was born in Calamba, Laguna, to Francisco Mercado and Teodora Alonso. His childhood in a loving, principled family shaped his values and outlook.'
   },
   {
