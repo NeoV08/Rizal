@@ -1,1 +1,51 @@
-<html><body><h2>Timeline</h2><p>Interactive timeline placeholder</p></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Timeline — Discovering José Rizal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="vintage">
+  <header class="site-header small">
+    <div class="container">
+      <h1>Discovering José Rizal</h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="character.html">Character Analysis</a>
+        <a href="legacy.html">Legacy</a>
+        <a href="references.html">References</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h2>Interactive Timeline</h2>
+    <p class="lead">Click any marker on the timeline to view more details about the event.</p>
+    <div class="timeline-wrapper">
+      <div class="timeline" id="timeline"></div>
+    </div>
+
+    <!-- Modal for event details -->
+    <div id="modal" class="modal" aria-hidden="true">
+      <div class="modal-content">
+        <button id="closeModal" class="close-btn">✕</button>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDate" class="muted"></p>
+        <img id="modalImg" src="" alt="" class="modal-img"/>
+        <p id="modalBody"></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Timeline built for SS038 — The Life and Works of Rizal.</p>
+    </div>
+  </footer>
+
+  <!-- Link to your script -->
+  <script src="script.js"></script>
+</body>
+</html>
